@@ -1,0 +1,93 @@
+header{
+    background: #bbbbbb;
+    padding: 20px;
+}
+
+.container-header{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+nav {
+    position: absolute;
+    top: 100px;
+    right: 0;
+}
+
+.products {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.products li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-color: #000;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.products li:hover{
+    border-color: #c78c19;
+}
+
+
+.products li:active{
+    border-color: green;
+}
+
+.products li:hover h2{
+    font-size: 35px;
+}
+
+.products h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.product-preco{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.product-text{
+    font-size: 18px;
+}
+
+footer{
+    text-align: center;
+    background: url(../assets/bg.jpg);
+    padding: 45px 0
+}
+
+.copyright{
+    color: #ffffff;
+    font-size: 12px;
+}
